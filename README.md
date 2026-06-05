@@ -1,6 +1,6 @@
 # News Recommendation A/B Testing Framework
 
-> **Real-world problem:** A news platform publishes 500+ articles daily. How do you know if a new recommendation algorithm actually improves reader engagement — before deploying it to millions of users?
+> **Problem:** A news platform publishes 500+ articles daily. How do you know if a new recommendation algorithm actually improves reader engagement — before deploying it to millions of users?
 
 This framework provides the answer: a production-grade A/B testing pipeline that statistically validates recommendation algorithm changes using real news article data.
 
@@ -115,7 +115,7 @@ simulated_ctr              0.5414     0.5546     +2.4%     0.2234      ✗
 avg_engagement             0.5381     0.5546     +3.1%     0.0225      ✓
 category_coverage          0.1455     0.1448     -0.5%     0.6864      ✗
 
-🏆 VERDICT: Treatment wins — significant improvement on 2 metrics
+ VERDICT: Treatment wins — significant improvement on 2 metrics
 ============================================================
 ```
 
